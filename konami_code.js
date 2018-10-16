@@ -17,9 +17,18 @@ function init() {
   
   function konamiCodeHandler(e) {
     const key = e.key;
+    
+    if (key === codes[index]) {
+      index++;
+    }
+    if (key === codes.length) {
+      alert("Congratulations - You've cracked the code!")
+      
+      index = 0;
+    } else {
+      index = 0;
+    }
   }
   body = document.querySelector('body');
-  body.addEventListener('keydown', function(konami) {
-    alert("Congratulations - You've cracked the code!")
-  })
+  body.addEventListener('keydown', konamiCodeHandler())
 }
