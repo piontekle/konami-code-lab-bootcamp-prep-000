@@ -18,7 +18,7 @@ function init() {
   
   
   var body = document.body;
-  body.addEventListener('keydown', function konamiCodeHandler(e) {
+  body.addEventListener('keydown', function(e) {
     const key = e.key;
     
     if (key === codes[index]) {
