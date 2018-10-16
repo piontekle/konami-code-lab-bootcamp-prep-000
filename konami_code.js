@@ -23,7 +23,7 @@ function init() {
       index++;
     }
     if (key === codes.length) {
-      window.alert("Congratulations - You've cracked the code!")
+      alert("Congratulations - You've cracked the code!")
       
       index = 0;
     } else {
