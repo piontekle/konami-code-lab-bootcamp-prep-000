@@ -16,7 +16,7 @@ function init() {
   let index = 0;
   
   function konamiCodeHandler(e) {
-    const key = e.keyCode;
+    const key = e.key;
     
     if (key === codes[index]) {
       index++;
