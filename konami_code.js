@@ -11,9 +11,11 @@ const codes = [
   "a"
 ];
 
+let index = 0;
+
 function init() {
   // your code here
-  let index = 0;
+  
   
   body = document.body;
   body.addEventListener('keydown', function konamiCodeHandler(e) {
