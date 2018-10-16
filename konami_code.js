@@ -15,7 +15,7 @@ function init() {
   // your code here
   let index = 0;
   
-  body = document.querySelector('body');
+  body = document.body;
   body.addEventListener('keydown', function konamiCodeHandler(e) {
     const key = e.key;
     
