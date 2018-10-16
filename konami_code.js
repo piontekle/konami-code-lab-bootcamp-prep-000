@@ -28,9 +28,9 @@ function init() {
       alert("Congratulations - You've cracked the code!")
       
       index = 0;
+    } 
     } else {
       index = 0;
     }
-    }
-  })
+    })
 }
