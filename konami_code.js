@@ -12,11 +12,11 @@ const codes = [
 ];
 
 
-
+ var index = 0;
+ var body = document.body;
 function init() {
   // your code here
-  var index = 0;
-  var body = document.body;
+ 
   body.addEventListener('keydown', function(e) {
     const key = e.key;
     
