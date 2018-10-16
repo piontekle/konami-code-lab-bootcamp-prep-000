@@ -12,8 +12,9 @@ const codes = [
 ];
 
 
- var index = 0;
- var body = document.body;
+var index = 0;
+var body = document.body;
+ 
 function init() {
   // your code here
  
