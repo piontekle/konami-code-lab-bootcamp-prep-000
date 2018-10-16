@@ -15,7 +15,8 @@ function init() {
   // your code here
   let index = 0;
   
-  function konamiCodeHandler(e) {
+   body = document.querySelector('body');
+  body.addEventListener('keydown', function konamiCodeHandler(e) {
     const key = e.key;
     
     if (key === codes[index]) {
@@ -28,7 +29,5 @@ function init() {
     } else {
       index = 0;
     }
-  }
-  body = document.querySelector('body');
-  body.addEventListener('keydown', konamiCodeHandler())
+  })
 }
