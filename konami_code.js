@@ -15,8 +15,6 @@ let index = 0;
 
 function init() {
   // your code here
-  
-  
   var body = document.body;
   body.addEventListener('keydown', function(e) {
     const key = e.key;
