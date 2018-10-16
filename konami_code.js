@@ -34,5 +34,3 @@ function init() {
     }
     });
 }
-
-init();
