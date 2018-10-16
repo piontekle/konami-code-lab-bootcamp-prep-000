@@ -23,7 +23,7 @@ function init() {
     if (key === codes[index]) {
       index++;
     
-    if (index === codes.length - 1) {
+    if (index === codes.length) {
       alert("Congratulations - You've cracked the code!");
       
       index = 0;
